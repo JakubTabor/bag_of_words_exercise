@@ -1,0 +1,3 @@
+# bag_of_words_exercise
+I gonna test different models to check their efficiency in pipeline
+# First i load my dataset, it include review and sentiment to review, then I check shape of data, it is big dataset with two columns
