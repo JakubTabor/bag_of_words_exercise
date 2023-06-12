@@ -5,3 +5,4 @@ I gonna test different models to check their efficiency in pipeline
 # I check category imbalance, there is no imbalance, now I can import train_test_split and supply "df.review" as X and "df.Category" as y
 # Now when I have train and test set ready I can import vectorizer, pipeline and RandomForestClassifier
 # Then I create my pipeline and supply it into vectorizer, then RandomForestClassifier with 50 trees entropy criterion
+# Next I train my data and prepare y_pred making predictions on my X_test, then i print classification report
