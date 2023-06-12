@@ -9,3 +9,4 @@ I gonna test different models to check their efficiency in pipeline
 # "random_forest" works pretty good, decision trees helps overcomes high variance and overfitting of high dimensional
 # It also use feature importance of words for better classifying the categories, he managed good on this dataset
 # Now I gonna check performance of "KNeighborsClassifier", so I put in into my pipeline, setting "n_neighbors to 10" and "metric will be euclidean"
+# I train it, then prepare y_pred and print classification_report, we can see that score is low in both classes 
