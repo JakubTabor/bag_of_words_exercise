@@ -12,3 +12,4 @@ I gonna test different models to check their efficiency in pipeline
 # I train it, then prepare y_pred and print classification_report, we can see that score is low in both classes 
 # The reason is that KNN doesn't work well with high dimensional data and we work here on bag of words, so KNN have low perforamnce
 # Main reason of low performance is cost to calculate distance which is expensive in that case
+# Then I gonna check "MultinomialNB", so I put it into my pipeline, then I train it and get y_pred which i put into classification_report
