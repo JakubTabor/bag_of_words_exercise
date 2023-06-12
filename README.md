@@ -15,3 +15,4 @@ I gonna test different models to check their efficiency in pipeline
 # Then I gonna check "MultinomialNB", so I put it into my pipeline, then I train it and get y_pred which I put into classification_report
 # "MultinomialNB" work as good as "random_forest", but computation cost was lower and I get my results faster
 # Advantages are easy calculation of probabilities for the words in corpus(Bag of words) and storing them in contigency table
+# The best model is "MultinomialNB" and it is always recommended, but we can experiment because in some cases other models have better performance
