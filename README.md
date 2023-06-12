@@ -6,3 +6,4 @@ I gonna test different models to check their efficiency in pipeline
 # Now when I have train and test set ready I can import vectorizer, pipeline and RandomForestClassifier
 # Then I create my pipeline and supply it into vectorizer, then RandomForestClassifier with 50 trees entropy criterion
 # Next I train my data and prepare y_pred making predictions on my X_test, then i print classification report
+# "random_forest" works pretty good, decision trees helps overcomes high variance and overfitting of high dimensional
