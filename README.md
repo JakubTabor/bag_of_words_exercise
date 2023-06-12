@@ -11,3 +11,4 @@ I gonna test different models to check their efficiency in pipeline
 # Now I gonna check performance of "KNeighborsClassifier", so I put in into my pipeline, setting "n_neighbors to 10" and "metric will be euclidean"
 # I train it, then prepare y_pred and print classification_report, we can see that score is low in both classes 
 # The reason is that KNN doesn't work well with high dimensional data and we work here on bag of words, so KNN have low perforamnce
+# Main reason of low performance is cost to calculate distance which is expensive in that case
